@@ -223,6 +223,9 @@ body {
 
 .nav-item-link:hover, .btn:hover {
     background-color: #f39c12;
+}
+
+.btn:hover {
     color: #fff;
 }
 
