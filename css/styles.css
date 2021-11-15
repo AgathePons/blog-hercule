@@ -237,6 +237,7 @@ body {
 
     .content-titles {
         width: auto;
+        margin-bottom: 2rem;
         text-align: center;
         margin-right: 0;
     }
@@ -267,6 +268,7 @@ body {
     .header {
         position:static;
         width:auto;
+        height: auto;
         float:none;
         margin-left:0;
     }
@@ -278,6 +280,10 @@ body {
 
     .page {
         padding: 0 1rem;
+    }
+
+    .content-title {
+        text-align: center;
     }
 
     .nav {
@@ -298,10 +304,6 @@ body {
         width:calc(33.3333% - .5rem);
         text-align: center;
     }
-
-    /* .nav-item:not(:last-child) {
-        margin-right: .8rem;
-    } */
 
     .nav-item-link {
         margin-bottom: 0;
