@@ -299,10 +299,11 @@ body {
     }
 
     .nav-item:not(:last-child) {
-        margin-right: 1rem;
+        margin-right: .8rem;
     }
 
     .nav-item-link {
         margin-bottom: 0;
+        font-size: 1.1rem;
     }
 }
