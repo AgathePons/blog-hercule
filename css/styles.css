@@ -17,6 +17,9 @@ body {
 }
 
 .header {
+    position: sticky;
+    top: 0;
+    height: 100vh;
     float: left;
     margin-left: -250px;
     width: 250px;
@@ -127,6 +130,15 @@ body {
     display: block;
 }
 
+.picture-desc {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: .8rem;
+    background-color: #0000009e;
+    color: #fff;
+}
+
 .content-quote {
     border-top: 3px solid #ccc;
     margin-top: 2rem;
@@ -217,8 +229,8 @@ body {
 /*
     Styles pour les écrans de moins de 1200px de large :
 */
-/*
 
+@media screen and (max-width: 1199px) {
     .content-focus {
         display:block;
     }
@@ -244,13 +256,14 @@ body {
     .card {
         width:auto;
     }
+}
 
-*/
 
 /*
     Styles pour les écrans de moins de 900px de large :
 */
-/*
+
+@media screen and (max-width: 899px) {
     .header {
         position:static;
         width:auto;
@@ -277,6 +290,7 @@ body {
 
     .nav-links {
         margin-top:0;
+        display: flex;
     }
 
     .nav-item {
@@ -284,8 +298,11 @@ body {
         text-align: center;
     }
 
+    .nav-item:not(:last-child) {
+        margin-right: 1rem;
+    }
+
     .nav-item-link {
         margin-bottom: 0;
     }
-
-*/
+}
